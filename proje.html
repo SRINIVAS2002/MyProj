@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srini Vihar</title>
+    <link rel="stylesheet" href="./pro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+</head>
+<body style="background-color: greenyellow;">
+    <header>
+        <div class="header-container">
+            <h1>Srini Vihar</h1>
+            <nav>
+                <ul class="navbar">
+                    <input type='checkbox' id='check' />
+                    <span class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#reservation">Make A Reservation</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="marquee">
+        <marquee>Welcome to Srini Vihar - Enjoy our delicious and diverse menu with a delightful dining experience!</marquee>
+    </section>
+    <section id="home" class="hero">
+        <div class="slider">
+            <img src="./img1.jpg" alt="Delicious Food 1">
+            <img src="./img7.jpg" alt="Delicious Food 2">
+            <img src="./img8.jpg" alt="Delicious Food 3">
+        </div>
+        <center><h1 style="color:orangered;">Welcome to Srini Vihar!</h1></center>&nbsp;
+        <center><p>Indulge in a wide variety of mouthwatering dishes that cater to every palate.</p></center>
+        <center><a href="#menu" class="btn">Explore Menu</a></center>
+    </section>
+    <section id="reservation">
+        <h2><center>Make A Reservation</center></h2>&nbsp;
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+                <center><a href="./res.html" class="btn" target="_blank">Reserve Table</a></center>
+            </form>
+    </section>
+    <section id="menu">
+        <h2><center>Menu</center></h2>
+        <div class="menu-category">
+            <h3>Starters</h3>
+            <ul>
+                <li>
+                    <img src="./img2.jpg" width="100">
+                    <div>
+                        <h4>Vegetarian Spring Rolls</h4>
+                        <p>Freshly made with a mix of vegetables and served with a tangy dipping sauce.</p>
+                        <p class="price">Rs. 80/-</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img3.jpg" width="100" alt="Non-Veg Starter">
+                    <div>
+                        <h4>Chicken Satay</h4>
+                        <p>Grilled chicken skewers marinated in a savory peanut sauce.</p>
+                        <p class="price">Rs. 100/-</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-category">
+            <h3>Main Courses</h3>
+            <ul>
+                <li>
+                    <img src="./img4.jpg" width="100" alt="Veg Biryani">
+                    <div>
+                        <h4>Vegetarian Biryani</h4>
+                        <p>Aromatic rice dish cooked with fresh vegetables and spices.</p>
+                        <p class="price">Rs. 150/-</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img5.jpg" width="100">
+                    <div>
+                        <h4>Chicken Biryani</h4>
+                        <p>Flavorful biryani with tender chicken pieces and a blend of spices.</p>
+                        <p class="price">Rs. 180/-</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-category">
+            <h3>Desserts</h3>
+            <ul>
+                <li>
+                    <img src="./img6.jpg" width="120" alt="Dessert">
+                    <div>
+                        <h4>Chocolate Lava Cake</h4>
+                        <p>Decadent chocolate cake with a molten center, served with vanilla ice cream.</p>
+                        <p class="price">Rs. 80/-</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="about">
+        <h2><center>About Us</center></h2>
+        <center>&nbsp;<p>At Srini Vihar, we bring you a culinary journey filled with exquisite flavors and delightful experiences. 
+            Our menu is crafted with love, using the freshest ingredients to create unforgettable dishes.</p></center>
+    </section>
+    <section id="contact">
+        <h2><center>Contact</center></h2>
+        <center>&nbsp;
+            <p>Email: info@srinivihar.com</p>
+            <p>Phone: 7891234650</p>
+            <p>Address: Near Gulmohar Apartments, Shaad Nagar, Hyderabad.</p>
+        </center>
+    </section>
+    <footer>&nbsp;
+        <center><p>&copy; <b>2024 Srini Vihar. All rights reserved.</b></p></center>&nbsp;
+    </footer>
+</body>
+</html>
